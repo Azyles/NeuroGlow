@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="height: 100%;">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -8,46 +8,175 @@
     <meta name="description" content="NeuroGlow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.4.2/pixi.min.js"></script>
+
+    <link href="//db.onlinewebfonts.com/c/1120f366a9d75e5743640482b32cfed0?family=CustardW00-Regular" rel="stylesheet"
+        type="text/css" />
+
+
 </head>
 
-<body style="height: 100%;">
+<body style="background-color: black;">
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light center">
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark justify-content-end"
+        style="background: rgba(0,0,0,0.8); -webkit-backdrop-filter: blur(10px) saturate(180%);  backdrop-filter: blur(10px) saturate(180%); margin-left: 20px; margin-right: 20px;margin-top: 20px; border-radius: 10px;border: 1px;border-color:   #2a2a2a  ;border-style: solid; padding-left: 10px;padding-right: 0px; ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">NeuroGlow</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse  justify-content-end" id="navbarText">
+                <ul class="navbar-nav text-right">
                     <li class="nav-item">
-                        <a class="nav-link" href="#About">About</a>
+                        <a class="nav-link" href="#About">The Issue</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#Support">Get Support</a>
+                        <a class="nav-link" href="#Support">The Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Informed">Get Informed</a>
+                        <a class="nav-link" href="#Informed">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Involved">Get Involved</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Involved">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Involved">Careers</a>
+                    </li>
+
                 </ul>
-                <button type="button" class="btn btn-dark">Donate</button>
+
             </div>
         </div>
     </nav>
 
 
+
+    <div class="container-fliud text-center"
+        style="height: 90%; margin: 2.5%; margin-top: 2.5%; background: url('https://img.wallpapersafari.com/desktop/1680/1050/13/54/zhKOmT.jpg') center / cover">
+
+        <h1
+            style="padding-top: 20%; font-size: calc(3em + 3vw);font-family: PlusJakartaRegular;font-weight: 400; color: white;">
+            NeuroGlow</h1>
+        <div class="text-center" style="margin-top: 5%;"><button class="button button1">View More</button></div>
+    </div>
+
+    <div class="container-fliud text-center" style="width: 80%; margin-left: 10%; margin-right: 10%;">
+
+        <h1
+            style="padding-top: 10%;  padding-bottom: 10%;font-size: calc(1em + 1vw);font-family: PlusJakartaRegular;font-weight: 400; color: white;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet diam finibus, lacinia lacus vitae,
+            pharetra est.
+            Fusce odio ante, accumsan semper condimentum sit amet, scelerisque sit amet ex. In est erat, finibus non
+            lectus sit
+            amet, ultricies sollicitudin enim. Sed pharetra eros eget neque tincidunt, sed commodo quam pretium. Sed
+            rhoncus aliquam
+            nisl non egestas. Sed luctus ut lectus a eleifend. Aliquam at sem hendrerit, fermentum neque vitae, luctus
+            leo.</h1>
+
+    </div>
+
+    <div id="features" class="row text-center align-items-center" style="margin-left: 15%;margin-right: 15%;">
+        <div class="col" 2>
+            <div class="container hideme ImageFillAnimate"
+                style="padding-top: 100%; background-image: url('https://www.teahub.io/photos/full/17-174667_architecture-minimalist-wallpaper-hd.jpg');background-position: center;background-repeat: no-repeat;background-size: cover; ">
+            </div>
+            <h1 style="font-size: calc(1em + 1vw); padding-top: 7%; font-family: AvertaCYB;  color: white;">WORK</h1>
+        </div>
+        <div class="col">
+            <div class="container hideme ImageFillAnimate"
+                style="padding-top: 100%; background-image: url('https://images.unsplash.com/photo-1523754639921-addf446ddae4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bWluaW1hbCUyMGFyY2hpdGVjdHVyZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');background-position: center;background-repeat: no-repeat;background-size: cover; ">
+            </div>
+            <h1 style="font-size: calc(1em + 1vw); padding-top: 7%; font-family: AvertaCYB;  color: white;">WORK</h1>
+        </div>
+    </div>
+    <div class="row text-center" style="margin-left: 15%;margin-right: 15%;margin-top: 5%; z-index: 1;">
+        <div class="col">
+            <div class="container hideme ImageFillAnimate"
+                style="padding-top: 100%; background-image: url('https://wallup.net/wp-content/uploads/2017/11/17/293371-minimalism-building-748x469.jpg');background-position: center;background-repeat: no-repeat;background-size: cover; ">
+            </div>
+            <h1 style="font-size: calc(1em + 1vw); padding-top: 7%; font-family: AvertaCYB;  color: white;">WORK</h1>
+        </div>
+        <div class="col">
+            <div class="container hideme ImageFillAnimate"
+                style="padding-top: 100%; background-image: url('https://data.1freewallpapers.com/download/building-wall-stairs-architecture-minimalism.jpg');background-position: center;background-repeat: no-repeat;background-size: cover; ">
+            </div>
+            <h1 style="font-size: calc(1em + 1vw); padding-top: 7%; font-family: AvertaCYB; color: white;">WORK</h1>
+        </div>
+    </div>
+    <div class="text-center" style="margin-top: 5%;"><button class="button button5">View More</button></div>
+<div class="container-fliud" style="margin-top: 15%;">
+    <div class="row text-center">
+        <div class="col-xxl" style="background-image: url('https://wallup.net/wp-content/uploads/2017/11/17/293371-minimalism-building-748x469.jpg');background-position: center;background-repeat: no-repeat;background-size: cover;">
+            
+        </div>
+        <div class="col-xxl" style="background-color: black;">
+            <h1
+                style="font-weight: avertacyb; width: 80%; margin-left: 10%; margin-right: 10%; padding-top: 10%;  padding-bottom: 1%;font-size: calc(1.5em + 1.5vw);font-family: PlusJakartaRegular;font-weight: 400; color: white;">
+                Title
+            </h1>
+            <h1
+                style=" width: 80%; margin-left: 10%; margin-right: 10%; font-size: calc(1em + 1vw);font-family: PlusJakartaRegular;font-weight: 400; color:  #c7c7c7 ;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet diam finibus, lacinia lacus
+                vitae,
+                pharetra est.
+                Fusce odio ante, accumsan semper condimentum sit amet, scelerisque sit amet ex. In est erat, finibus
+                non lectus
+                sit
+                amet, ultricies sollicitudin enim. Sed pharetra eros eget neque tincidunt, sed commodo quam pretium.
+                Sed rhoncus
+                aliquam
+                nisl non egestas. Sed luctus ut lectus a eleifend. Aliquam at sem hendrerit, fermentum neque vitae,
+                luctus leo.
+            </h1>
+            <div class="text-center" style="margin-top: 4%; margin-bottom: 4%;"><button class="button button5">View More</button></div>
+
+        </div>
+    </div>
+    <div class="container-fliud" style="margin-top: 0%;">
+        <div class="row text-center">
+            
+            <div class="col-xxl" style="background-color: black;">
+                <h1
+                    style="font-weight: avertacyb; width: 80%; margin-left: 10%; margin-right: 10%; padding-top: 10%;  padding-bottom: 1%;font-size: calc(1.5em + 1.5vw);font-family: PlusJakartaRegular;font-weight: 400; color: white;">
+                    Title
+                </h1>
+                <h1
+                    style=" width: 80%; margin-left: 10%; margin-right: 10%; font-size: calc(1em + 1vw);font-family: PlusJakartaRegular;font-weight: 400; color:  #c7c7c7 ;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet diam finibus, lacinia lacus
+                    vitae,
+                    pharetra est.
+                    Fusce odio ante, accumsan semper condimentum sit amet, scelerisque sit amet ex. In est erat, finibus
+                    non lectus
+                    sit
+                    amet, ultricies sollicitudin enim. Sed pharetra eros eget neque tincidunt, sed commodo quam pretium.
+                    Sed rhoncus
+                    aliquam
+                    nisl non egestas. Sed luctus ut lectus a eleifend. Aliquam at sem hendrerit, fermentum neque vitae,
+                    luctus leo.
+                </h1>
+                <div class="text-center" style="margin-top: 4%;margin-bottom: 4%;"><button class="button button5">View More</button></div>
+    
+            </div>
+            <div class="col-xxl"
+                style="background-image: url('https://data.1freewallpapers.com/download/building-wall-stairs-architecture-minimalism.jpg');background-position: center;background-repeat: no-repeat;background-size: cover;">
+            
+            </div>
+        </div>
+
+    <script src="code.js" async defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
-    <script src="" async defer></script>
 </body>
 
 </html>
