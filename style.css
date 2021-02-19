@@ -43,6 +43,11 @@
   background-color: lightblue;
   color: white;
 }
+
+#header{
+  transition: 3.2s;
+}
+
 html{
     width: 100%;
     height: 100%;
@@ -90,6 +95,7 @@ html{
 }
 
 .ImageFillAnimate{
+  border-radius: 3px;
   transition: all .7s;
 }
 .hideme
