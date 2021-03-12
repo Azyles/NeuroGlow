@@ -240,13 +240,22 @@ html{
    color:  #879296 ;
 }
 
-.card.text-black.border-0 {
-}
-
-.card :hover{
-  filter: saturate(120%);
- transition-duration: 0.7s;
- margin-top: -20px;
+.card.text-black.border-0.ws :hover{
+  background-color: #def1fc;
+  transition-duration: 0.5s;
  
 }
+
+.card.text-black.border-0.pc :hover{
+  background-color: #f3ede1;
+  transition-duration: 0.5s;
+ 
+} 
+.card.text-black.border-0.fr :hover{
+  background-color: #e5f5e0;
+  transition-duration: 0.5s;
+ 
+}
+
+
 
