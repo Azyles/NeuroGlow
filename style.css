@@ -190,6 +190,19 @@ html{
   color: #badceb;
 }
 
+.buttonFR {
+  
+  margin: 0px;
+  font-size: calc(0.4em + 0.4vw);
+  background-color: #d7ebd1;
+  color:   #3e5159  ;
+  font-family: avertacyb;
+}
+
+.buttonFR:hover {
+  background-color: white;
+  color: #badceb;
+}
 
 
 .cardpodcast{
