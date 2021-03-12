@@ -182,8 +182,8 @@ html{
 }
 
 .buttonPD:hover {
-  background-color: white;
-  color: #badceb;
+  background-color: #3e5159;
+  color: #cee4ec;
 }
 
 .buttonWS {
@@ -196,8 +196,8 @@ html{
 }
 
 .buttonWS:hover {
-  background-color: white;
-  color: #badceb;
+  background-color: #3e5159;
+  color: #ebe3d5;
 }
 
 .buttonFR {
@@ -210,8 +210,8 @@ html{
 }
 
 .buttonFR:hover {
-  background-color: white;
-  color: #badceb;
+  background-color: #3e5159;
+  color: #d7ebd1;
 }
 
 
