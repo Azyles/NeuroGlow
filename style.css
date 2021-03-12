@@ -54,14 +54,15 @@ html{
     scroll-behavior: smooth;
     transition: all .5s;
     background-color: white;
+    
  }
  body{
      margin: 0;
      padding: 0;
      width: 100%;
      height: 100%;
-     overflow-x: hidden;     
-     font-family: AvertaCY;
+     overflow-x: hidden;   
+     font-family: 'Cormorant Garamond', serif;
      background-color: white;
      
  }
@@ -72,12 +73,13 @@ html{
 }
 
 .navbar-nav > li > a:hover{
-    background-color:  rgba(200, 200, 200, 0.1);
+    background-color:  rgba( 130, 152, 255 , 0.1);
     border-radius: 10px;
     color: white;
 }
 .navbar-nav > li{
-    font-size: calc(0.5em + 0.5vw);
+  color: #2a2c35;
+    font-size: calc(0.43em + 0.43vw);
   padding-left:10px;
   padding-right:10px;
 }
@@ -121,7 +123,10 @@ html{
 .button5 {
   background-color: transparent;
   color: black;
-  font-family: avertacyb;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: calc(0.65em + 0.65vw);
+  font-weight: 500;
+  padding: 12px 24px;
   border: 2px solid #555555;
 }
 
@@ -157,20 +162,35 @@ html{
   border: 2px solid white;
 }
 
-.glow { 
-  z-index: -1;
-  position: fixed;
-  top: calc(50%);
-  width: 100%;
-  height: 50%;
-  filter: blur(100px) brightness(1.2);
-  opacity: 0;
-  background-image: url("https://media0.giphy.com/media/Qvp6Z2fidQR34IcwQ5/giphy-downsized-large.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
+.buttonPD {
+  
+  margin: 0px;
+  font-size: calc(0.4em + 0.4vw);
+  background-color: #cee4ec;
+  color:   #3e5159  ;
+  font-family: avertacyb;
 }
+
+.buttonPD:hover {
+  background-color: white;
+  color: #badceb;
+}
+
+.buttonWS {
+  
+  margin: 0px;
+  font-size: calc(0.4em + 0.4vw);
+  background-color: #ebe3d5;
+  color:   #3e5159  ;
+  font-family: avertacyb;
+}
+
+.buttonWS:hover {
+  background-color: white;
+  color: #badceb;
+}
+
+
 
 .cardpodcast{
   padding: 10px;
@@ -184,11 +204,20 @@ html{
 }
 
 .card-title{
+  
+  font-size: calc(0.8em + 0.8vw);
+  font-family: 'Cormorant Garamond', serif; color: #26343a;
   margin-top: 5%;
+  margin-bottom: 1%;
 }
 
-.card {
-  border-color: transparent;
+.card-text{
+  margin-left: 5%;
+  margin-right: 5%;
+   color:  #879296 ;
+}
+
+.card.text-black.border-0 {
 }
 
 .card :hover{
