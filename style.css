@@ -176,7 +176,7 @@ html{
   
   margin: 0px;
   font-size: calc(0.4em + 0.4vw);
-  background-color: #cee4ec;
+  background-color: rgb(220, 233, 243);;
   color:   #3e5159  ;
   font-family: avertacyb;
 }
